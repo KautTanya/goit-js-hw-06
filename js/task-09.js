@@ -30,8 +30,8 @@ function changeColor(){
       .toString(16)
       .padStart(6, 0)}`;
   }
-
-  spanEl.textContent = getRandomHexColor();
-  bodyEl.style.backgroundColor = getRandomHexColor();
+ const color = getRandomHexColor();
+  spanEl.textContent = color;
+  bodyEl.style.backgroundColor = color;
 
 }
